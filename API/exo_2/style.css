@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 400px;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(243, 225, 202, 0.442);
+    position: fixed;
+    border-bottom: 1px solid rgb(201, 198, 198);
+}
+span {
+    color: rgb(213, 130, 22);
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+
+
+/* main */
+
+.hero {
+    width: 100%;
+    background-color: rgba(243, 225, 202, 0.442);
+    height: 700px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.hero-div {
+    width: 50%;
+}
+
+.hero-div {
+    width: 350px;
+    font-size: 20px;
+}
+
+.hero-div p {
+    padding-top: 30px;
+}
+
+#p_1 {
+    color: rgba(0, 0, 0, 0.573);
+}
+
+#bouton_hero {
+    margin-top: 20px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+/* Section 2 */
+
+.section_2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.left_text {
+    width: 40%;
+}
+
+#p_sec2 {
+    color: rgba(0, 0, 0, 0.696);
+}
+
+.left_text h1 {
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#pp_sec2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.right_text {
+    background-color: rgb(103, 90, 90);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    width: 30%;
+    height: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+#a {
+    padding-bottom: 40px;
+    color: rgb(209, 207, 207);
+}
+
+
+/* section 3 */
+.section_3 {
+    width: 100%;
+    background-color: rgba(243, 225, 202, 0.442);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+
+#btn {
+    /* background-color: rgba(243, 225, 202, 0.442); */
+    background: transparent;
+    border: none;
+    padding-block: 20px;
+    cursor: pointer;
+}
+
+.reponse {
+    display: none;
+}
+.show{
+    display: flex;
+}
+.active{
+    display: inline-block;
+    rotate: 25deg;
+
+}
+
+#question{
+    width:40em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reponse{
+    width: 80%;
+    margin: 0;
+    
+}
+
+
+#question:hover{
+    cursor: pointer;
+}
